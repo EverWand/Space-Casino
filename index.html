@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<!--start our HTML Tags with the lang to English-->
+<html>
+    <!--Start our head tags-->
+    <head>
+        <!--Links our stylesheet File-->
+        <link rel="stylesheet" href="style.css">
+        <!--Links our JavaScript File-->
+        <script src="JavaScriptCode.js"></script>
+        <!--Gives the webpage a title-->
+        <title>The Satelite Casino</title>
+    </head>
+
+    <!--start our body tags-->
+    <body>
+        
+        <!--<div> tag that includes everything in between it part of the rules ID-->
+       <div id="rules">
+            <!--<div> tag that includes everything in between it part of the welcome ID-->
+            <div id="welcome">
+                <!--tells the document that this portion of code will be written in a script using the previously linked language-->
+                <script>
+                    /*calls the welcome function from inside the .js file*/
+                    welcome();
+                </script>
+            </div>  
+        
+            <!--tells the document that this portion of code will be written in a script using the previously linked language-->
+            <script>
+                /*calls the rules function from inside the .js file*/
+                rules();
+                /*calls the play function from inside the .js file*/
+                play();
+                
+            </script> 
+        </div>
+
+    </body>
+
+</html>

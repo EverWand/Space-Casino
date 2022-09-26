@@ -1,0 +1,101 @@
+
+/*BODY STYLES*/
+body{
+     /*re-aligns the text inside of this section: centered alignment*/
+    text-align: center;
+    /*makes the webpage's background an image*/
+    background-image: url("https://www.publicdomainpictures.net/pictures/40000/velka/spatiul-cosmic.jpg");
+    /*Changes the color of the text inside of the body tag*/
+    color: azure;
+}
+
+/*GENERAL STYLES:*/
+
+    /*buttons*/
+button{
+    /*changes the font size of any button found in the webpage*/
+    font-size: medium;
+}
+
+
+/*ID STYLES:*/
+
+    /*Div Tags*/
+#welcome{
+    /*creates a border with a specific style*/
+    border-style: solid;
+    /*edits the color of the border*/
+    border-color: azure;
+    /*adjusts the left-side margin*/
+    margin-left: 7%;
+    /*adjusts the right-side margin*/
+    margin-right: 7%;
+    /*edits the color of the background*/
+    background-color: rgb(0,0,0,0.7);
+}
+
+#rules{
+    /*rounds the border by a certain amount*/
+    border-radius: 50px;
+    /*edits the color of the background*/
+    background-color: rgb(0,0,0,0.5);
+}
+#gameBoard{
+    /*changes the font size of text found in the section*/
+    font-size: large;
+    /*changes the font weight of text found in the section*/
+    font-weight: bolder;
+    /*creates a border with a specific style*/
+    border-style: solid;
+    /*edits the color of the border*/
+    border-color: azure;
+    /*rounds the border by a certain amount*/
+    border-radius: 50px;
+    /*re-aligns the text inside of this section: centered alignment*/
+    text-align: center;
+}
+
+
+
+/*CLASS STYLES:*/
+
+    /*<hr> tags with a class*/
+.shortHR{
+    /*adjusts the left-side margin*/
+    margin-left: 10%;
+    /*adjusts the right-side margin*/
+    margin-right: 10%;
+}
+.shorterHR{
+    /*adjusts the left-side margin*/
+    margin-left: 15%;
+    /*adjusts the right-side margin*/
+    margin-right: 15%;
+}
+
+
+    /*Result Boxes*/
+.resultBox{
+    /*creates a border with a specific style*/
+    border-style:solid;
+    /*rounds the border by a certain amount*/
+    border-radius: 20px;
+    /*edits the color of the border*/
+    border-color: azure;
+    /*edits the color of the background*/
+    background-color: rgb(0,0,0,0.5);
+    /*re-aligns the text inside of this section: centered alignment*/
+    text-align: center;
+    /*Orients the section towards the left side of the page*/
+    float:left;
+    /*adjusts the padding all around the section*/
+    padding:2%;
+    /*adjusts the left-side padding*/
+    padding-left: 4%;
+    /*adjusts the right-side padding*/
+    padding-right: 4%;
+    /*adjusts the left-side margin*/
+    margin-left:15%;
+    /*adjusts the top-side margin*/
+    margin-top: 5%;
+}
